@@ -68,7 +68,7 @@ body{
 .incorrect{
     background: #ff9393;
 }
-/* Media query for smaller screens */
+
 @media only screen and (max-width: 600px) {
     .app {
         width: 95%; /* Adjust container width for smaller screens */
