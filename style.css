@@ -68,3 +68,22 @@ body{
 .incorrect{
     background: #ff9393;
 }
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .app {
+        width: 95%; /* Adjust container width for smaller screens */
+        margin-top: 50px; /* Adjust margin for smaller screens */
+    }
+
+    .app h1 {
+        font-size: 22px; /* Adjust heading font size for smaller screens */
+    }
+
+    .quiz h2 {
+        font-size: 16px; /* Adjust question font size for smaller screens */
+    }
+
+    .btn, #next-btn {
+        width: 80%; /* Adjust button width for smaller screens */
+    }
+}
