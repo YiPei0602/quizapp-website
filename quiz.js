@@ -150,7 +150,7 @@ function selectAnswer(e){
 
 function showScore(){
     resetState();
-    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    questionElement.innerHTML = `You scored ${score} out of ${questions.length}! <span id="credit">by TYP</span>`;
     nextButton.innerHTML="Play Again";
     nextButton.style.display="block";
 }
