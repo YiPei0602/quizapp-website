@@ -83,6 +83,6 @@ body{
     }
 
     .btn, #next-btn {
-        width: 80%; /* Adjust button width for smaller screens */
+        width: 100%; /* Adjust button width for smaller screens */
     }
 }
