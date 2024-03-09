@@ -83,6 +83,11 @@ body{
     }
 
     .btn, #next-btn {
+        width: 80%; /* Adjust button width for smaller screens */
+    }
+    
+     .quiz .btn {
         width: 100%; /* Adjust button width for smaller screens */
+        border: 1px solid #222; /* Adjust border for options */
     }
 }
